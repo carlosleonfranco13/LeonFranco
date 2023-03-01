@@ -1,9 +1,46 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /*Colors*/
+  --colorPrimary-1: #030a15;
+  --colorPrimary-2: #6633cc;
+  --colorSecond: #ffffff;
+  --colorComplem-1: #000000;
+  --colorShadow: #b793ff;
+
+  /*Font-family*/
+  --font-1: "Poppins", sans-serif;
+  --font-2: "Zen Loop", cursive;
+
+  /*Font-size*/
+  --h1-mobile: 2.4rem;
+  --h2-mobile: 2rem;
+  --h3-mobile: 1.6rem;
+  --h4-mobile: 1.2rem;
+  --h5-mobile: 1.4rem;
+  --p-mobile: 1.6rem;
+  --span-m: 3.2rem;
+
+  /*Font-weight*/
+  --wBold: bold;
+  --wRegular: normal;
+}
+
+html {
+  font-size: 62.5%;
 }
 
 header{
-    margin: 0 auto;
+    text-align: center;
+}
+span {
+    font-family: var(--font-1);
+    font-size: var(--span-m);
+}
+
+main section .me {
 }
