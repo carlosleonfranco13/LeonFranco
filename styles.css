@@ -88,6 +88,7 @@ main .me{
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
+  margin: 16px auto;
 }
 .cards-wrapper{
   display: flex;
@@ -105,12 +106,13 @@ main .me{
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  box-shadow: 2px 4px 3px var(--colorShadow);
 }
 .card img{
   height: 70%;
   width: 100%;
   background-size: cover;
-  background-position: center;
+  background-position: center top;
 }
 .card h2{
   font-family: var(--font-1);
@@ -135,4 +137,17 @@ main .me{
 .img2{
   background-image: url(/assets/imgs/corazonverde.png);
   border-radius: 16px 16px 0 0;
+}
+.img3{
+  background-image: url(/assets/imgs/landingPage-eduSoft.jpg);
+  border-radius: 16px 16px 0 0;
+}
+.img4{
+  background-image: url(/assets/imgs/weatherApp.jpg);
+  border-radius: 16px 16px 0 0;
+}
+
+.aboutme h2{
+  color: var(--colorPrimary-2);
+  text-align: center;
 }
