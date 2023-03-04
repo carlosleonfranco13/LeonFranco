@@ -218,6 +218,13 @@ margin: 8px 16px;
   top: 20%;
   transform: translateX(-50%);
 }
+.position-content{
+  width: calc(50% - 20px);
+}
+.show-me:nth-child(n){
+  transform: none;
+  opacity: 1;
+}
 
 .position p{
   color: var(--colorPrimary-2);
