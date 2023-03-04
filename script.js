@@ -4,9 +4,9 @@ function qs(selector, all = false) {
   return all ? document.querySelectorAll(selector) : document.querySelector(selector);
 }
 
-const sections = qs('.position', true);
-const timeline = qs('.laboral-contain');
-const line = qs('.timeline');
+const sections = qs('.section-laboral', true);
+const timeline = qs('.laboral-timeline');
+const line = qs('.line-laboral');
 line.style.bottom = `calc(100% - 20px)`;
 let prevScrollY = window.scrollY;
 let up, down;
