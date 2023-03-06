@@ -44,7 +44,6 @@ header{
 span {
     font-family: var(--font-2);
     font-size: var(--span-m);
-    font-weight: var(--wBold);
     color: var(--colorPrimary-2);
 }
 
