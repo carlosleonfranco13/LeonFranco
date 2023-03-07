@@ -444,7 +444,8 @@ main .me{
 }
 .text-box-edu{
   padding: 20px 30px;
-  background: var(--colorPrimary-2);
+  background: var(--colorPrimary-1);
+  box-shadow: 0 0 56px var(--colorPrimary-2);
   position: relative;
   border-radius: 6px;
   font-size: var(--p-mobile);
@@ -506,7 +507,7 @@ main .me{
   z-index: 1;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-left: 15px solid var(--colorPrimary-2);
+  border-left: 15px solid var(--colorPrimary-1);
   right: -15px;
 }
 .right-container-edu-arrow{
@@ -517,7 +518,7 @@ main .me{
   z-index: 1;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-right: 15px solid var(--colorPrimary-2);
+  border-right: 15px solid var(--colorPrimary-1);
   left: -15px;
 }
 
@@ -550,7 +551,22 @@ main .me{
   .left-container-edu-arrow,
   .right-container-edu-arrow{
       border-right: 0;
-      border-left: 15px solid var(--colorPrimary-2);
+      border-left: 15px solid var(--colorPrimary-1);
       left: 100%;
   }
+}
+
+form{
+  padding-top: 32px;
+}
+form h2{
+  font-size: var(--h2-mobile);
+  font-family: var(--font-1);
+  font-weight: var(--wBold);
+  color: var(--colorSecond);
+  text-align: center;
+}
+.form-group{
+  
+  
 }
