@@ -233,7 +233,7 @@ main .me{
 
 /*=====Laboral Timeline=====*/
 .laboral{
-  padding-top: 64px;
+  padding-top: 48px;
 }
 .timeline-laboral{
   position: relative;
@@ -249,7 +249,7 @@ main .me{
   padding: 10px 50px;
   position: relative;
   width: 50%;
-  animation: movedown 1s linear forwards;
+  animation: movedown .2s linear forwards;
   opacity: 0;
 }
 @keyframes movedown{
@@ -266,19 +266,19 @@ main .me{
   animation-delay: 0s;
 }
 .container:nth-child(2){
-  animation-delay: .2s;
-}
-.container:nth-child(3){
-  animation-delay: .3s;
-}
-.container:nth-child(4){
-  animation-delay: .4s;
-}
-.container:nth-child(5){
   animation-delay: .5s;
 }
+.container:nth-child(3){
+  animation-delay: 1s;
+}
+.container:nth-child(4){
+  animation-delay: 1.5s;
+}
+.container:nth-child(5){
+  animation-delay: 2s;
+}
 .container:nth-child(6){
-  animation-delay: .6s;
+  animation-delay: 2.5s;
 }
 .text-box{
   padding: 20px 30px;
@@ -317,7 +317,7 @@ main .me{
   left: 50%;
   margin-left: -3px;
   z-index: -1;
-  animation: moveline 3s linear forwards;
+  animation: moveline 2.9s linear forwards;
 }
 @keyframes moveline {
   0%{
@@ -411,7 +411,7 @@ main .me{
   padding: 10px 50px;
   position: relative;
   width: 50%;
-  animation: movedown 1s linear forwards;
+  animation: movedown .2s linear forwards;
   opacity: 0;
 }
 @keyframes movedown{
@@ -428,20 +428,18 @@ main .me{
   animation-delay: 0s;
 }
 .container-edu:nth-child(2){
-  animation-delay: .2s;
-}
-.container-edu:nth-child(3){
-  animation-delay: .3s;
-}
-.container-edu:nth-child(4){
-  animation-delay: .4s;
-}
-.container-edu:nth-child(5){
   animation-delay: .5s;
 }
-.container-edu:nth-child(6){
-  animation-delay: .6s;
+.container-edu:nth-child(3){
+  animation-delay: 1s;
 }
+.container-edu:nth-child(4){
+  animation-delay: 1.5s;
+}
+.container-edu:nth-child(5){
+  animation-delay: 2s;
+}
+
 .text-box-edu{
   padding: 20px 30px;
   background: var(--colorPrimary-1);
@@ -480,7 +478,7 @@ main .me{
   left: 50%;
   margin-left: -3px;
   z-index: -1;
-  animation: moveline 3s linear forwards;
+  animation: moveline 2.5s linear forwards;
 }
 @keyframes moveline {
   0%{
