@@ -554,10 +554,10 @@ main .me{
   }
 }
 
-form{
+.form{
   padding-top: 32px;
 }
-form h2{
+.form h2{
   font-size: var(--h2-mobile);
   font-family: var(--font-1);
   font-weight: var(--wBold);
@@ -565,6 +565,56 @@ form h2{
   text-align: center;
 }
 .form-group{
-  
-  
+  text-align: center;
+}
+.form-group input{
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--colorPrimary-2);
+  outline: none;
+  width: 80%;
+  margin: 16px auto;
+} 
+.form-group input[type="text"],
+.form-group input[type="email"]{
+  color: var(--colorPrimary-2);
+  font-size: var(--p-mobile);
+  font-family: var(--font-1);
+}
+textarea{
+  background: none;
+  color: var(--colorPrimary-2);
+  font-family: var(--font-1);
+  font-size: var(--p-mobile);
+  margin-top: 24px;
+  width: 80%;
+  height: 150px;
+  padding: 4px;
+  border: 1px solid var(--colorPrimary-2);
+  outline: none;
+}
+#boton{
+  color: var(--colorSecond);
+  border-bottom: none;
+  background-color: var(--colorPrimary-2);
+  font-family: var(--font-1);
+  font-size: var(--p-mobile);
+  padding: 8px;
+  display: block;
+  width: auto;
+  border-radius: 8px;
+  margin: 24px auto;
+}
+
+footer{
+  background-color: var(--colorPrimary-2);
+  display: flex;
+}
+footer p{
+  font-size: var(--p-mobile);
+  font-family: var(--font-1);
+  color: var(--colorPrimary-1);
+}
+footer .fa-heart{
+  font-size: var(--p-mobile);
 }
