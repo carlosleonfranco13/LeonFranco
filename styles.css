@@ -157,7 +157,8 @@ main .me{
   text-decoration: none;
   transition: all 0.3s ease;
 }
-.card a:hover{
+.card a:hover,
+.card a:active{
   box-shadow: 0 0 9px 6px var(--colorPrimary-2);
   transform: scale(1.04);
 }
@@ -603,6 +604,7 @@ textarea{
   padding: 4px;
   border: 1px solid var(--colorPrimary-2);
   outline: none;
+  border-radius: 8px;
 }
 #boton{
   color: var(--colorPrimary-1);
@@ -635,7 +637,8 @@ footer .social{
   color: var(--colorSecond);
   transition: all 0.3s ease;
 }
-.behance:hover{
+.behance:hover,
+.behance:active{
   transform: scale(1.05);
   color: var(--colorPrimary-1);
 }
@@ -643,7 +646,8 @@ footer .social{
   color: var(--colorSecond);
   transition: all 0.3s ease;
 }
-.twitter:hover{
+.twitter:hover,
+.twitter:active{
   transform: scale(1.05);
   color: var(--colorPrimary-1);
 }
@@ -651,14 +655,16 @@ footer .social{
   color: var(--colorSecond);
   transition: all 0.3s ease;
 }
-.linkedin:hover{
+.linkedin:hover,
+.linkedin:active{
   transform: scale(1.05);
   color: var(--colorPrimary-1);
 }
 .workana{
   transition: all 0.3s ease;
 }
-.workana:hover{
+.workana:hover,
+.workana:active{
   transform: scale(1.05);
 }
 footer .made{
