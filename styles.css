@@ -141,9 +141,9 @@ main .me{
 .cards-wrapper{
   display: flex;
   align-items: center;
-  padding: 8px 0;
+  margin: 20px 0;
 }
-.card{
+.card a{
   background-color: var(--colorPrimary-2);
   scroll-snap-align: center;
   min-width: 235px;
@@ -154,6 +154,15 @@ main .me{
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.card a:hover{
+  box-shadow: 0 0 9px 6px var(--colorPrimary-2);
+  transform: scale(1.04);
+}
+.card a.no-underline {
+  text-decoration: none;
 }
 .card img{
   height: 70%;
@@ -164,12 +173,14 @@ main .me{
 .card h2{
   font-family: var(--font-1);
   font-size: var(--h2-mobile);
+  color: var(--colorPrimary-1);
 }
 .icons-card{
   display: flex;
   gap: 16px;
   align-items: center;
   margin-bottom: 8px;
+  color: var(--colorPrimary-1);
 }
 .icons-card img{
   height: 32px;
@@ -619,6 +630,36 @@ footer .social{
 }
 .social img{
   height: 56px;
+}
+.behance{
+  color: var(--colorSecond);
+  transition: all 0.3s ease;
+}
+.behance:hover{
+  transform: scale(1.05);
+  color: var(--colorPrimary-1);
+}
+.twitter{
+  color: var(--colorSecond);
+  transition: all 0.3s ease;
+}
+.twitter:hover{
+  transform: scale(1.05);
+  color: var(--colorPrimary-1);
+}
+.linkedin{
+  color: var(--colorSecond);
+  transition: all 0.3s ease;
+}
+.linkedin:hover{
+  transform: scale(1.05);
+  color: var(--colorPrimary-1);
+}
+.workana{
+  transition: all 0.3s ease;
+}
+.workana:hover{
+  transform: scale(1.05);
 }
 footer .made{
   display: flex;

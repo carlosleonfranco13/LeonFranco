@@ -51,3 +51,9 @@ function scrollHandler(e) {
 scrollHandler();
 line.style.display = 'block';
 window.addEventListener('scroll', scrollHandler);
+
+/*===========CARDS LINKS==========*/
+document.getElementById("card-corazonverde").onclick = function() {
+    location.href = "https://tiendacorazonverde";
+  };
+
