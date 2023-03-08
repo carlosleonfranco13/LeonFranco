@@ -162,6 +162,10 @@ main .me{
   background-image: url(/assets/imgs/weatherApp.jpg);
   border-radius: 16px 16px 0 0;
 }
+.img5{
+  background-image: url(/assets/imgs/carritoU.png);
+  border-radius: 16px 16px 0 0;
+}
 
 .aboutme{
   padding-top: 16px;
