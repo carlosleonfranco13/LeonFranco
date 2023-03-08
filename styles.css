@@ -48,51 +48,7 @@ span {
     color: var(--colorSecond);
 }
 
-/*=====BUTTON LANGUAGE======*/
-header aside{
-  margin: 8px auto;
-}
-.language{
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-input[type="checkbox"]{
-  position: relative;
-  width: 45px;
-  height: 20px;
-  appearance: none;
-  background-color: var(--colorPrimary-1);
-  outline: none;
-  border-radius: 13px;
-  box-shadow: 0 0 5px .2px var(--colorSecond);
-  transition: .5s;
-}
-input:checked[type="checkbox"]{
-  background-color: var(--colorPrimary-2);
-}
-input[type="checkbox"]::before{
-  content: '';
-  position: absolute;
-  width: 22.5px;
-  height: 22.5px;
-  border-radius: 17.5px;
-  top: 0;
-  left: 0;
-  background: url(/assets/icons/colombia.svg);
-  background-size: 250%;
-  background-position: center;
-  transform: scale(1.1);
-  transition: .5s;
-}
-input:checked[type="checkbox"]::before{
-  left: 25px;
-  transition: .5s;
-  background: url(/assets/icons/United_States.png);
-  background-size: 200%;
-  background-position: bottom left;
-}
-/*====End Button Language=====*/
+
 
 main .me{
   display: flex;
