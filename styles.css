@@ -23,6 +23,7 @@
   --h5-mobile: 1.4rem;
   --p-mobile: 1.6rem;
   --span-m: 5.6rem;
+  --span-desktop: 8.9rem;
   --small-mobile: 1.1rem;
 
   /*Font-weight*/
@@ -64,6 +65,9 @@ main .me{
   font-size: var(--h1-mobile);
   font-weight: var(--wBold);
   margin: 8px auto;
+}
+.me .title-desktop{
+  display: none;
 }
 .me div{
   display: flex;

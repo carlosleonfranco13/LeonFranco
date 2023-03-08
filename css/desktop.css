@@ -1,0 +1,72 @@
+header {
+  text-align: left;
+  padding-left: 24px;
+  padding-bottom: 4px;
+}
+header span {
+  font-size: var(--span-desktop);
+}
+
+body {
+  max-width: 1085px;
+  margin: 0 auto;
+}
+main .me {
+  position: relative;
+}
+main img.photo {
+  position: absolute;
+  left: 24px;
+  width: 200px;
+  top: 24px;
+}
+.me h1 {
+  display: none;
+}
+.me div {
+  position: absolute;
+  top: 241px;
+  right: 24px;
+}
+
+.aboutme {
+  position: relative;
+}
+.aboutme h2 {
+  display: none;
+}
+.aboutme p {
+  position: absolute;
+  top: -624px;
+  margin-left: 249px;
+  margin-right: 60px;
+}
+.me {
+  position: relative;
+}
+.me .title-desktop {
+  display: flex;
+  position: absolute;
+  top: -5px;
+  left: 248px;
+}
+.titleD-1 {
+  font-family: var(--font-1);
+  font-weight: var(--wBold);
+  color: var(--colorPrimary-2);
+  font-size: 4rem;
+}
+.titleD-2 {
+  font-family: var(--font-1);
+  font-weight: var(--wBold);
+  color: var(--colorSecond);
+  font-size: 4rem;
+}
+
+.cards-contain {
+  margin-top: 293px;
+}
+
+.techs {
+  padding-top: 24px;
+}
