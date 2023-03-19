@@ -589,12 +589,21 @@ textarea{
   transition: all 0.5s;
   cursor: pointer;
 }
-
 #botonForm:hover{
   background-color: var(--colorSecond);
   color: var(--colorPrimary-2);
   transform: scale(1.1);
   box-shadow: 0px 0px 4px var(--colorShadow);
+}
+#form .alertaError{
+  background-color: red;
+  padding: 4px 4px;
+  width: 80%;
+  margin: 0 auto;
+  color: var(--colorSecond);
+  font-size: var(--p-mobile);
+  font-family: var(--font-1);
+  border-radius: 8px;
 }
 
 footer{
