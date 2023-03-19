@@ -10,3 +10,5 @@ function cambiarIdioma() {
     location.href = "/index.html"; // redirecciona al index.html principal
   }
 }
+
+/*============FORM==============*/
