@@ -16,10 +16,8 @@ document.addEventListener('DOMContentLoaded', function() {
   inputMsj.addEventListener('blur', validar);
 
   function validar(e) {
-    console.log(e.target.id)
-
     if(e.target.value.trim() === '') {
-      mostrarAlerta('El campo email es obligatorio');
+      mostrarAlerta(`El campo ${e.target.id} es obligatorio`);
     }else{
       console.log('Continúa con el formulario');
     }
