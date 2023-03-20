@@ -16,19 +16,22 @@ document.addEventListener('DOMContentLoaded', function() {
   inputMsj.addEventListener('blur', validar);
 
   function validar(e) {
+    console.log(e.target.parentElement);
+
     if(e.target.value.trim() === '') {
-      mostrarAlerta(`El campo ${e.target.id} es obligatorio`);
+      mostrarAlerta(`El campo ${e.target.id} es obligatorio`, e.target.parentElement);
     }else{
       console.log('Continúa con el formulario');
     }
   }
 
-  function mostrarAlerta(mensaje) {
+  function mostrarAlerta(mensaje, referencia) {
+    // Generar alerta en el HTML
     const alertaError = document.createElement('P');
     alertaError.textContent = mensaje;
     alertaError.classList.add('alertaError');
 
-    // Mostrar la Alerta en el form del html(cliente)
-    form.appendChild(alertaError);
+    // Mostrar la Alerta en el html(Form)
+    referencia.appendChild(alertaError);
   }
 });
