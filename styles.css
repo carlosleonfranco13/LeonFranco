@@ -595,6 +595,14 @@ textarea{
   transform: scale(1.1);
   box-shadow: 0px 0px 4px var(--colorShadow);
 }
+#botonForm:disabled{
+  opacity: 50%;
+  cursor: not-allowed;
+  box-shadow: none;
+  background-color: var(--colorPrimary-2);
+  color: var(--colorSecond);
+  transform: none;
+}
 #form .alertaError{
   background-color: red;
   padding: 4px 4px;
