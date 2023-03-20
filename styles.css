@@ -540,6 +540,12 @@ main .me{
 .form-group{
   text-align: center;
 }
+.form-group input::placeholder{
+  color: var(--colorSecond);
+}
+.form-group textarea::placeholder{
+  color: var(--colorSecond);
+}
 .form-group input{
   background: none;
   border: none;
@@ -553,6 +559,7 @@ main .me{
   color: var(--colorPrimary-2);
   font-size: var(--p-mobile);
   font-family: var(--font-1);
+  text-transform: capitalize;
 }
 textarea{
   background: none;
@@ -567,17 +574,36 @@ textarea{
   outline: none;
   border-radius: 8px;
 }
-#boton{
-  color: var(--colorPrimary-1);
-  border-bottom: none;
+#botonForm{
+  color: var(--colorSecond);
+  border: none;
   background-color: var(--colorPrimary-2);
   font-family: var(--font-1);
-  font-size: var(--p-mobile);
-  padding: 8px;
+  font-size: var(--h3-mobile);
+  font-weight: var(--wBold);
+  padding: 8px 24px;
   display: block;
   width: auto;
   border-radius: 8px;
   margin: 24px auto;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+#botonForm:hover{
+  background-color: var(--colorSecond);
+  color: var(--colorPrimary-2);
+  transform: scale(1.1);
+  box-shadow: 0px 0px 4px var(--colorShadow);
+}
+#form .alertaError{
+  background-color: red;
+  padding: 4px 4px;
+  width: 80%;
+  margin: 0 auto;
+  color: var(--colorSecond);
+  font-size: var(--p-mobile);
+  font-family: var(--font-1);
+  border-radius: 8px;
 }
 
 footer{
