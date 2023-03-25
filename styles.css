@@ -166,6 +166,10 @@ main .me{
   background-image: url(/assets/imgs/imgCarritoJuanita.png);
   border-radius: 16px 16px 0 0;
 }
+.img6{
+  background-image: url(/assets/imgs/autoSelecto.png);
+  border-radius: 16px 16px 0 0;
+}
 
 .aboutme{
   padding-top: 16px;
