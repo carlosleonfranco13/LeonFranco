@@ -170,6 +170,10 @@ main .me{
   background-image: url(/assets/imgs/autoSelecto.png);
   border-radius: 16px 16px 0 0;
 }
+.img7{
+  background-image: url(/assets/imgs/NOtasLeon.png);
+  border-radius: 16px 16px 0 0;
+}
 
 .aboutme{
   padding-top: 16px;
